@@ -47,23 +47,33 @@ ext.kotlin_version = '1.9.0'
 
 lib/
 |-- main.dart                # Main entry point of the application
+
 |-- joke_service.dart        # Handles fetching and caching jokes
+
 |-- joke.dart                # Data model for a joke
 
 # Dependencies
 
 Flutter: The core framework for building the app.
+
 http: For making API requests.
+
 shared_preferences: For caching jokes locally.
+
 google_fonts: For modern typography.
 
 Add these dependencies in the pubspec.yaml file:
 
 dependencies:
+
 flutter:
+
 sdk: flutter
+
 http: ^1.1.2
+
 shared_preferences: ^2.0.9
+
 google_fonts: ^4.0.3
 
 # API Integration
@@ -73,9 +83,11 @@ The app fetches jokes using the JokeService class. Update the joke_service.dart 
 # Customization
 
 Change Themes or Fonts
+
 Modify the ThemeData in the main.dart file.
 
 Modify Joke Limit
+
 Change the number of jokes displayed by editing the _loadJokes() method in main.dart:
 
 jokes = newJokes.take(5).toList();
@@ -88,7 +100,8 @@ Contributions are welcome! If you have suggestions or find issues, feel free to 
 Author
 
 Himash Ruwanga
+
 Email: himashreigns@gmail.com
 =======
-# jokeApp
+
 
