@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Joke App
 
 Welcome to the Joke App, a Flutter application designed to fetch and display the top 5 jokes with an engaging and modern UI.
@@ -25,6 +25,7 @@ Kotlin version: 1.9.0 (or compatible)
 ## Clone the Repository
 
 git clone https://github.com/himashreigns/jokeApp.git
+
 cd joke_app
 
 ## Install Dependencies
@@ -90,4 +91,4 @@ Himash Ruwanga
 Email: himashreigns@gmail.com
 =======
 # jokeApp
->>>>>>> 64cc95d4257ae3157ff9a19400a0c795df0c5ae7
+
