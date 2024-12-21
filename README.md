@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Joke App
 
 Welcome to the Joke App, a Flutter application designed to fetch and display the top 5 jokes with an engaging and modern UI.
@@ -87,3 +88,6 @@ Author
 
 Himash Ruwanga
 Email: himashreigns@gmail.com
+=======
+# jokeApp
+>>>>>>> 64cc95d4257ae3157ff9a19400a0c795df0c5ae7
